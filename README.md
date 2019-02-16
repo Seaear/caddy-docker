@@ -6,7 +6,7 @@ Plugins can be configured via the [`plugins` build arg](#custom-plugins).
 
 
 [![](https://images.microbadger.com/badges/image/abiosoft/caddy.svg)](https://microbadger.com/images/abiosoft/caddy "Get your own image badge on microbadger.com")
-[![](https://img.shields.io/badge/version-0.11.0-blue.svg)](https://github.com/mholt/caddy/tree/v0.11.0)
+[![](https://img.shields.io/badge/version-0.11.4-blue.svg)](https://github.com/mholt/caddy/tree/v0.11.4)
 
 Check [abiosoft/caddy:builder](https://github.com/abiosoft/caddy-docker/blob/master/BUILDER.md) for generating cross-platform Caddy binaries.
 
@@ -18,7 +18,7 @@ This image is built from [source code](https://github.com/mholt/caddy). As such,
 Caddy may prompt to agree to [Let's Encrypt Subscriber Agreement](https://letsencrypt.org/documents/2017.11.15-LE-SA-v1.2.pdf). This is configurable with `ACME_AGREE` environment variable. Set it to true to agree. `ACME_AGREE=true`.
 
 ### Telemetry Stats
-Starting from `v0.11.4`, [Telemetry stats](https://caddyserver.com/docs/telemetry) are submitted to Caddy by default. To use Caddy without telemetry, use the `:no-stats` or `:<version>-no-stats` tags. e.g. `:0.11.0-no-stats`, `:0.11.0-php-no-stats`.
+Starting from `v0.11.4`, [Telemetry stats](https://caddyserver.com/docs/telemetry) are submitted to Caddy by default. To use Caddy without telemetry, use the `:no-stats` or `:<version>-no-stats` tags. e.g. `:0.11.4-no-stats`, `:0.11.4-php-no-stats`.
 
 ## Getting Started
 
