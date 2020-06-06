@@ -4,7 +4,7 @@
 FROM abiosoft/caddy:builder as builder
 
 ARG version="1.0.3"
-ARG plugins="git,filemanager,cors,realip,expires,cache,docker,dnspod,azure,cloudflare,godaddy,googlecloud,filter,login,minify,geoip,upload,ipfilter,jwt,locale,proxyprotocol,forwardproxy,datadog,grpc,nobots,prometheus,ratelimit,webdav,reauth,mailout,jekyll,hugo,gopkg,cgi,authz"
+ARG plugins="git,filemanager,cors,realip,expires,cache,docker,dnspod,azure,cloudflare,godaddy,googlecloud,filter,login,minify,geoip,upload,ipfilter,jwt,locale,proxyprotocol,forwardproxy,datadog,grpc,nobots,prometheus,ratelimit,webdav,reauth,mailout,jekyll,hugo,gopkg,cgi"
 ARG enable_telemetry="false"
 
 # process wrapper
